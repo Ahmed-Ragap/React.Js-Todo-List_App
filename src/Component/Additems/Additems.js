@@ -9,7 +9,6 @@ class Additems extends Component{
         this.setState({
             [e.target.id]:e.target.value
         })
-        // console.log(this.state)
     }
     handelsubmit = (e) => {
    e.preventDefault();
@@ -18,7 +17,14 @@ class Additems extends Component{
        name:"",
        age:''
    })
+   if (this.state.name === '' || this.state.age === '') {
+    alert(' It should, First fill in the blank fields ');
+    this.state.name = '__no data__';
+    this.state.age = '__no data__';
+    
+   }
     }
+    
     render(){
         return(
             <div>

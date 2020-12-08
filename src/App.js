@@ -21,12 +21,13 @@ class App extends Component{
   items.push(item);
   this.setState({items})
   }
+ 
   render(){
   return (
     <div className="App container">
-      <h1 className='text-center'>todo list</h1>
+      <h1 className='text-center'>todo app</h1>
     <Todoitems items={this.state.items} deletItem={this.deletItem} />
-    <Additems addItem={this.addItem} />
+    <Additems addItem={this.addItem} Not_add={this.Not_add} />
   
     </div>
   );
