@@ -16,6 +16,7 @@
   
 }
 /* media screen size  */
+
 @media (max-width:991px) {
 .container{
 width: 90%;
@@ -85,8 +86,7 @@ form input[type=submit]{
 
 }
 
-
-
 .color{
   background-color: red;
 }
+/* end style */
