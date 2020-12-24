@@ -3,7 +3,7 @@ import Todoitems from './Component/Todoitems/Todoitems'
 import Additems from './Component/Additems/Additems'
 class App extends Component{
   state = {
-    items:[
+    items:[ 
       {id:1, name:'ali', age:22},
       {id:2, name:'ahmed', age:75},
       {id:3, name:'sara', age:45}
