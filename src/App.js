@@ -25,7 +25,7 @@ class App extends Component{
   render(){
   return (
     <div className="App container">
-      <h1 className='text-center'>todo app</h1>
+      <h1 className='text-center'>todo List app</h1>
     <Todoitems items={this.state.items} deletItem={this.deletItem} />
     <Additems addItem={this.addItem} Not_add={this.Not_add} />
   
